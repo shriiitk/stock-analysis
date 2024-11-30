@@ -110,6 +110,7 @@ def process_stock_data(data, num_months, ticker_name, history_period):
                 'Opening Price': row['Opening Price'],
                 'Month': group
             })
+            print(f"Predicted best date '{row['Date']}' on price '{row['Opening Price']}'")
 
     predicted_df = pd.DataFrame(predicted_results)
     predicted_output_file = f"{ticker_name}_{history_period}_predicted_best_buy_dates.csv"
