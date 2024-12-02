@@ -61,7 +61,7 @@ A Python script to fetch historical stock prices, analyze best buy dates, and pr
    ```
    - `<ticker_name>`: Stock ticker symbol (e.g., `^NSEI` for NIFTY 50).
    - `<history_period>`: Period of historical data (e.g., `5y` for 5 years).
-   - `<num_months>`: Number of future months to predict best buy dates.
+   - `<num_months>`: Number of future months to predict best buy & sell dates.
 
    Example:
    ```bash
@@ -81,14 +81,17 @@ A Python script to fetch historical stock prices, analyze best buy dates, and pr
 3. **Predicted Best Buy Dates:**  
    `<ticker>_<history_period>_predicted_best_buy_dates.csv`
 
-4. **Visualization Plot:**  
+4. **Predicted Best Sell Dates:**  
+   `<ticker>_<history_period>_predicted_best_sell_dates.csv`
+
+5. **Visualization Plot:**  
    A plot showing historical and predicted best buy dates.
 
 ---
 
 ## Example Usage
 
-To analyze NIFTY 50 data for the past 5 years and predict best buy dates for the next 3 months:
+To analyze NIFTY 50 data for the past 5 years and predict best buy & sell dates for the next 3 months:
 ```bash
 python stock_analysis.py ^NSEI 5y 3
 ```
