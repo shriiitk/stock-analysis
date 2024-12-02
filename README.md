@@ -7,9 +7,9 @@ A Python script to fetch historical stock prices, analyze best buy dates, and pr
 ## Features
 
 1. Fetch historical stock data for a given ticker and period.
-2. Analyze historical best buy dates for each month.
-3. Predict future best buy dates for the next specified number of months.
-4. Generate CSV files for historical and predicted best buy dates.
+2. Analyze historical best buy and sell dates for each month.
+3. Predict future best buy and sell dates for the next specified number of months.
+4. Generate CSV files for historical and predicted best buy & sell dates.
 5. Display a plot visualizing historical and predicted trends.
 
 ---
