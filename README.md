@@ -28,7 +28,7 @@ A Python script to fetch historical stock prices, analyze best buy dates, and pr
 1. **Clone the Repository**  
    Clone the repository to your local system:
    ```bash
-   git clone https://github.com/<your-username>/stock-analysis.git
+   git clone https://github.com/shriiitk/stock-analysis.git
    cd stock-analysis
    ```
 
